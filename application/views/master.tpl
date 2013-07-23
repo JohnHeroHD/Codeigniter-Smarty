@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <head>
-        <title></title>
+        <title>{$pageTitle}</title>
     </head>
     <body>
 		{block name=content}{/block}			

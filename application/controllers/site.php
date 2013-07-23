@@ -2,8 +2,10 @@
 
 class Site extends CI_Controller {
 
-	public function index()
-	{	
-		$this->load->view('site/home.php');
+	public function index(){
+
+		$this->data["pageTitle"] = "Home";
+		$this->load->view('home', $this->data);
+
 	}
 }
