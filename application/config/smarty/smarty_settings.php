@@ -35,7 +35,7 @@ $config['smarty_template_dir'] = APPPATH . 'views/';
 | Default: php
 |
 */
-$config['smarty_template_ext'] = 'php';
+$config['smarty_template_ext'] = 'tpl';
 
 /*
 |--------------------------------------------------------------------------
