@@ -4,9 +4,10 @@
  * The following config items are for the integration of
  * the Smarty template parsing system into CodeIgniter.
  *
- * @author	Eric 'Aken' Roberts <eric@cryode.com> 
- * @link	https://github.com/cryode/CodeIgniter_Smarty
- * @version	1.0.0
+ * @author	JohnHeroHD <johnherohd@gmail.com>
+ * @author	Eric 'Aken' Roberts <eric@cryode.com>
+ * @link	https://github.com/JohnHeroHD/Codeigniter-Smarty
+ * @version	1.0.1
  */
 
 /*
@@ -46,7 +47,7 @@ $config['smarty_template_ext'] = 'tpl';
 | WITH TRAILING SLASH. This directory is required! Also,
 | make sure it has write permissions set.
 |
-| Default: APPPATH . 'third_party/Smarty/compiled/';
+| Default: APPPATH . 'third_party/smarty/';
 |
 */
-$config['smarty_compile_dir'] = APPPATH . 'cache/smarty/compiled/';
+$config['smarty_compile_dir'] = APPPATH . 'cache/smarty/';
