@@ -47,7 +47,7 @@ $config['smarty_template_ext'] = 'tpl';
 | WITH TRAILING SLASH. This directory is required! Also,
 | make sure it has write permissions set.
 |
-| Default: APPPATH . 'third_party/smarty/';
+| Default: APPPATH . 'cache/smarty/';
 |
 */
 $config['smarty_compile_dir'] = APPPATH . 'cache/smarty/';
