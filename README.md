@@ -41,6 +41,7 @@ All you have to do is:
 - updated smarty to 3.1.16
 - refactored custom smarty code
 - updated the readme (from now on I will ignore this change because it will happen every time...)
+
 <strong>Note:</strong> In this release the cache directory will change. So make sure to delete your old one, it's not needed anymore.
 
 
